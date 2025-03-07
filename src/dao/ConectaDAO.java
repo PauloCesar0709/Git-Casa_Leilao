@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
 
-public class ConnectDAO {
+public class ConectaDAO {
         public Connection connectDB(){
         
         try {
