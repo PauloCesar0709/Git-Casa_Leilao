@@ -143,7 +143,11 @@ setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         produto.setStatus(status);
         
         ProdutosDAO produtodao = new ProdutosDAO();
+        
         produtodao.cadastrarProduto(produto);
+        
+        cadastroNome.setText("");
+        cadastroValor.setText("");
         
     }//GEN-LAST:event_btnCadastrarActionPerformed
 

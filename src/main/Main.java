@@ -10,6 +10,6 @@ public class Main {
         SwingUtilities.invokeLater(() ->  {
         CadastroVIEW tela = new CadastroVIEW();
         tela.setVisible(true);
-        });
-    }
+    });
+}
 }
